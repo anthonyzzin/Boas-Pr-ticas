@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rufina', serif;
+}
+
+body{
+    background-color: #BFD1D9;
+    height: 250vh;
+}
+
+header{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, #D2A295 23.96%, #BFD1D9 100%);
+}
+
+h1{
+    color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    font-size: 72px;
+    font-weight: 700px;
+}
+
+.primeiro{
+    color: #9D7F7F;
+    display: flex;
+    font-size: 36px;
+    padding: 1rem;
+    width: 60rem;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #090D06;
+}
+
+.caixa1{
+    width: 75rem;
+}
+
+.caixa2{
+    width: 75rem;
+}
+
+.caixa3{
+    width: 75rem;
+}
+
+.caixa-border-radius{
+    background-color: white;
+    width: 193px;
+    height: 193px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 2px 5px 20px gray;
+}
+
+.caixa1, .caixa2, .caixa3{
+    display: flex;
+    align-items: center;
+    margin-top: 125px;
+}
+
+.caixa-img{
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.gym-img{
+    height: 152px;
+    width: 160px;
+    margin-top: 1.5rem;
+}
+
+.h3-titulo{
+    width: 625px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 36px;
+    margin-left: 2rem;
+    color: #1C3021;
+}
+
+.h3-p{
+    width: 625px;
+    height: 113px;
+    font-size: 30px;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    color: #383D40;
+}
